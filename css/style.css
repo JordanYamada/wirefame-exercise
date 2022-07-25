@@ -24,8 +24,21 @@ main {
 }
 
 footer {
-  background-color: aliceblue;
-  height: 50px;
+  background-color: rgb(101, 139, 173);
+  width: 960px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+footer article {
+  display:block;
+  justify-content: center;
+}
+
+footer p {
+  justify-self: center;
+  color: rgb(88, 68, 39);
 }
 
 main img {
